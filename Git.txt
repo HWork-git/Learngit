@@ -1,2 +1,3 @@
 git add 名字+后缀
 git commit -m "描述"
+git status  时刻掌握仓库当前的状态
