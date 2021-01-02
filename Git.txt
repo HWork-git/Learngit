@@ -3,4 +3,6 @@ git commit -m "描述"
 git status  时刻掌握仓库当前的状态
 "执行版本回退"
 git log  查看历史版本信息   + --pretty =oneline  防止版本信息显示过多
-git reset 回退版本命令
+git reset --hard HEAD^ 回退版本命令
+git reset --hard +版本号
+git reflog 记录库当中的每一次命令
