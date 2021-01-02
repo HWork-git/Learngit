@@ -15,7 +15,12 @@ rm 文件名+后缀   删除工作区的文件
 
 git remote add origin git@github.com:HWork/learngit.git 关联远程库
 
-git push +库名+master  推送分支到远程库
+git push +库名+master     推送分支到远程库
 
 
-克隆一份本地库 git clone +远程库的地址；
+git clone +远程库的地址   克隆一份本地库  
+
+git branch +分支名      创建一个分支
+git checkout + 分支名   切换到某一分支
+git branch              查看当前分支
+git merge 				将分支合并到master分支上
